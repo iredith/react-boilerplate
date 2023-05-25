@@ -1,8 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Carousal from './Components/Carousal/Carousal.jsx';
 
 render(
-    <Carousal />,
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
